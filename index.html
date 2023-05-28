@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Validacion Formulario</title>
+</head>
+<body>
+    <form>
+        <label for="rut">Rut</label>
+        <input type="text" id="rut" name="rut">
+        <br>
+        <label for="appaterno">Apelido Paterno</label>
+        <input type="text" id="appaterno" name="appaterno">
+        <br>
+        <label for="apmaterno">Apellido Materno</label>
+        <input type="text" id="apmaterno" name="apmaterno">
+        <br>
+        <label for="nombre">Nombre</label>
+        <input type="text" id="nombre" name="nombre">
+        <br>
+        <label for="nacimiento">Fecha de nacimiento</label>
+        <input type="date" id="nacimiento" name="nacimiento">
+        <br>
+        <label for="edad">Edad</label>
+        <input type="number" id="edad" name="edad">
+        <br>
+        <label for="genero">Género</label>
+        <select id="genero" name="genero">
+            <option value="masculino">Masculino</option>
+            <option value="femenino">Femenino</option>
+            <option value="otro">Otro</option>
+            <option value="ninguno">Ninguno</option>
+        </select>
+        <br>
+        <label for="email">E-mail</label>
+        <input type="email" id="email" name="email">
+        <br>
+        <label for="celular">Celular</label>
+        <input type="text" id="celular" name="celular">
+        <br>
+        <label for="profesion">Profesión</label>
+        <input type="text" id="profesion" name="profesion">
+        <br>
+        <label for="motivacion">Motivación para postular</label>
+        <textarea id="motivacion" name="motivacion"></textarea>
+        <br>
+        <input type="button" value="Valida Formulario" onclick="validar()">
+    </form>
+    <script src="validaciones.js"></script>
+</body>
+</html>
